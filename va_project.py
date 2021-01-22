@@ -66,7 +66,7 @@ def example_preparation(filename,tipo):
 number_pores =20
 population_size = int(input('What is desired population size?'))
 generations = int(input('For how many generations do you wish our GA to run?'))
-mutation_rate=int(input('What is the desired mutation rate?'))
+mutation_rate=float(input('What is the desired mutation rate?'))
 
 #creates reference solution 
 reference = best_individual(number_pores)
