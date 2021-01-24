@@ -136,9 +136,9 @@ df = df[df.clones_number >= mean]
 #plots the filtered number of clones per genotype
 ax = df.plot.bar()
 
-dt=pd.DataFrame.from_dict(gens, orient='index')
-dt=pd.read_csv('individuals_per_generation_example.csv')
-dt=dt.reset_index()
+#dt=pd.DataFrame.from_dict(gens, orient='index')
+#dt=pd.read_csv('individuals_per_generation_example.csv')
+#dt=dt.reset_index()
 
 
 
